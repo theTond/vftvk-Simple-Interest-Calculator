@@ -1,12 +1,43 @@
-body {background-color:black;font-family:arial;color:white}
+* {
+  margin: 0;
+  padding: 0;
+}
 
-h1{color:grey;font-family:verdana}
+body {
+  background-color: black;
+  font-family: arial;
+  color: white;
+}
+
+h1 {
+  color: grey;
+  font-family: verdana;
+  display: block;
+  margin: 25px auto;
+}
 
 .maindiv {
-    background-color: white;
-    color: black;
-    width: 300px;
-    padding: 20px;
-    border-radius: 25px;
-    text-align: center;
+  background-color: white;
+  color: black;
+  width: 300px;
+  padding: 20px;
+  border-radius: 25px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.yellow {
+  background-color: yellow;
+  color: black;
+}
+
+#result {
+  display: block;
+  margin-top: 15px;
+}
+
+footer {
+  padding: 10px;
+  color: grey;
+  font-size: 14px;
 }
